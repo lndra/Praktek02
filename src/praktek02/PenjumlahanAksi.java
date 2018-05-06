@@ -14,5 +14,7 @@ public class PenjumlahanAksi {
         Penjumlahan rl = new Penjumlahan();
         rl.a = 2;
         rl.b = 4;
+        
+        rl.CetakInfo();
     }
 }
