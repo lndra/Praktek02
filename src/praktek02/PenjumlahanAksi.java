@@ -17,5 +17,6 @@ public class PenjumlahanAksi {
         
         rl.CetakInfo();
         System.out.println("Hasil Penjumlahan = "+rl.hasil());
+        rl.cetakjumlah();
     }
 }
