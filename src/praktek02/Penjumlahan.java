@@ -19,4 +19,10 @@ public class Penjumlahan {
         System.out.println("b :"+b);
         System.out.println("==============");
     }
+    
+    int hasil(){
+        int jumlah;
+        jumlah=a*b;
+        return jumlah;
+    }
 }
