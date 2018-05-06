@@ -11,6 +11,6 @@ package praktek02;
  */
 public class PenjumlahanAksi {
     public static void main(String[] args) {
-        
+        Penjumlahan rl = new Penjumlahan();
     }
 }
