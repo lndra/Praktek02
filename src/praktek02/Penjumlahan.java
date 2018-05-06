@@ -12,6 +12,11 @@ package praktek02;
 public class Penjumlahan {
     int a;
     int b;
+
+    public Penjumlahan() {
+        a=6;
+        b=3;
+    }
     
     void CetakInfo(){
         System.out.println("==============");
@@ -25,4 +30,10 @@ public class Penjumlahan {
         jumlah=a*b;
         return jumlah;
     }
+    
+    void cetakjumlah(){
+        System.out.println("Hasilnya adalah : "+hasil());
+       
+    }
 }
+
