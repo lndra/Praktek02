@@ -17,6 +17,13 @@ public class Penjumlahan {
         a=6;
         b=3;
     }
+
+    public Penjumlahan(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+    
+    
     
     void CetakInfo(){
         System.out.println("==============");

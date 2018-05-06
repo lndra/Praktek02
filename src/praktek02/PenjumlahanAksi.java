@@ -18,5 +18,11 @@ public class PenjumlahanAksi {
         rl.CetakInfo();
         System.out.println("Hasil Penjumlahan = "+rl.hasil());
         rl.cetakjumlah();
+        
+        Penjumlahan r2 = new Penjumlahan();
+        r2.CetakInfo();
+        
+        Penjumlahan r3 = new Penjumlahan(10,20);
+        r3.CetakInfo();
     }
 }
